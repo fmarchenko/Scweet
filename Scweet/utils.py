@@ -1,23 +1,25 @@
-from io import StringIO, BytesIO
 import os
-import re
-from time import sleep
-import random
-import chromedriver_autoinstaller
-from selenium.common.exceptions import NoSuchElementException
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import datetime
-import pandas as pd
-import platform
-from selenium.webdriver.common.keys import Keys
-# import pathlib
-
-from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.by import By
-import const
+import os
+import random
+import re
 import urllib
+from time import sleep
+
+import chromedriver_autoinstaller
+import pandas as pd
+from selenium import webdriver
+from selenium.common.exceptions import NoSuchElementException
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.wait import WebDriverWait
+
+from Scweet import const
+
+
+# import pathlib
 
 # current_dir = pathlib.Path(__file__).parent.absolute()
 
